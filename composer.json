@@ -1,0 +1,26 @@
+{
+    "name": "snlbaral/khalti-api",
+    "description": "Khalti API for PHP.",
+    "homepage": "https://github.com/snlbaral/khalti-api",
+    "prefer-stable": true,
+    "keywords": [
+        "snlbaral",
+        "khalti",
+        "payment",
+        "api"
+    ],
+    "authors": [
+        {
+            "name": "Sunil Baral",
+        }
+    ],
+    "support": {
+        "email": "support@jcloudia.com",
+    },
+
+    "autoload": {
+        "psr-4": {
+            "Snlbaral\\Khalti\\": "src/"
+        }
+    },
+}
