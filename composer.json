@@ -11,11 +11,11 @@
     ],
     "authors": [
         {
-            "name": "Sunil Baral",
+            "name": "Sunil Baral"
         }
     ],
     "support": {
-        "email": "support@jcloudia.com",
+        "email": "support@jcloudia.com"
     },
 
     "autoload": {
