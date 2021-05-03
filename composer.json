@@ -2,7 +2,7 @@
     "name": "snlbaral/khalti-api",
     "description": "Khalti API for PHP.",
     "homepage": "https://github.com/snlbaral/khalti-api",
-    "prefer-stable": false,
+    "prefer-stable": true,
     "keywords": [
         "snlbaral",
         "khalti",
