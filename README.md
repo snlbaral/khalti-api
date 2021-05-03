@@ -29,7 +29,7 @@ Quick start
 -----------
 
 Create a merchant account in Khalti, Obtain the keys. And use test_public_key and test_secret_key at first. After the first successful test, you'll get live api keys.
-**Warning: *Secrets Keys* are similar to passwords or private keys by allowing an application to identify as yours: therefore, *Client Secrets* should be kept private.**
+**Warning: *Secrets Keys* are similar to passwords or private keys by allowing an application to identify as yours: therefore, *Secret Key* should be kept private.**
 
 ### Step 1: create your payment html page
 
@@ -170,7 +170,7 @@ public function verification(Request $request) {
     $secret = "test_secret_key_YOUR_SECRET_KEY";
     $token = $reqeust->token;
     $amount = $reqeust->amount;
-	  $khalti = new Khalti();
+    $khalti = new Khalti();
     $response = $khalti->verifyPayment($secret,$token,$amount);
 
     //Response Array from $response
