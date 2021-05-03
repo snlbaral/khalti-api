@@ -20,7 +20,7 @@ class Khalti {
 	 * @param int $amount khalti payment transaction amount
 	 * @return array payment details with status
 	 */
-	public function verifyPayment($secret, $token, $amount=1000) {
+	public function verifyPayment($secret, $token, $amount) {
 
 		$config = http_build_query(array(
 		    'token' => $token,
@@ -111,7 +111,7 @@ class Khalti {
 	 * @param int $amount khalti payment transaction amount
 	 * @return array transaction status
 	 */
-	public function transactionStatus($secret,$token,$amount=1000) {
+	public function transactionStatus($secret,$token,$amount) {
 		$config = http_build_query(array(
 		    'token' => $token,
 		    'amount'  => $amount,
