@@ -44,6 +44,7 @@ class Khalti {
 		$response = curl_exec($ch);
 		$status_code = curl_getinfo($ch, CURLINFO_HTTP_CODE);
 		curl_close($ch);
+		$response = json_encode(array('status_code'=>$status_code,'data'=>json_decode($response)));
 		return json_decode($response, true);
 	}
 
