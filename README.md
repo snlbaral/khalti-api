@@ -1,9 +1,9 @@
-# khalti-api
+# khalti-api-laravel
 
 [![Latest Stable Version](https://poser.pugx.org/snlbaral/khalti-api/v)](//packagist.org/packages/snlbaral/khalti-api) [![Total Downloads](https://poser.pugx.org/snlbaral/khalti-api/downloads)](//packagist.org/packages/snlbaral/khalti-api) [![Latest Unstable Version](https://poser.pugx.org/snlbaral/khalti-api/v/unstable)](//packagist.org/packages/snlbaral/khalti-api) [![License](https://poser.pugx.org/snlbaral/khalti-api/license)](//packagist.org/packages/snlbaral/khalti-api)
 
 
-This is an open source library that allows PHP applications to integrate Khalti Payment Gateway.
+This is an open source library that allows PHP/Laravel applications to integrate Khalti Payment Gateway.
 
 Requirements
 ------------
